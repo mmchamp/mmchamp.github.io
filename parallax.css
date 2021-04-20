@@ -7,8 +7,8 @@
 .regular-wrapper {
   z-index: 2;
   position: relative;
-  height:100vh;
-  padding-top:20vh;
+  /* height:100vh; */
+  /* padding-top:20vh; */
   background-color: rgb(255, 255, 255);
 }
 .regular-wrapper2 {
