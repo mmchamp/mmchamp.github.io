@@ -1,16 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    border: teal 3px solid;
+    /* border: teal 3px solid; */
 } 
 
 body{
-  background-image: url("images/Header_Image.svg");
   display:grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   /* width: 300px; */
   background-repeat: no-repeat;
+}
+
+.header-image {
+  background-image: url("images/Header_Image.svg");
 }
 
 img {
@@ -20,13 +23,13 @@ img {
 
 /* NAVBAR CSS */
 nav{
-    padding-left:2em;
-    padding-right: 4em;
+    /* padding-left:2em;
+    padding-right: 4em; */
     /* TODO: figure out no longer staying fixed */
-    position: fixed;
+    position: sticky;
     width: 100%;
     top:0;
-    left:50%;
+    left:40%;
     z-index:10;
   }
 
@@ -57,26 +60,26 @@ nav{
   }
 
   /* HEADER CSS */
-.header {
+/* .header {
     position: relative;
     background-image: url("/images/geometric-decoration-5836.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    background-color: antiquewhite;
-}
+    background-color: antiquewhite; */
+/* } */
 
 
 .welcome{
-    /* margin-top: 25vh; */
+    margin-top: 25vh;
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     color: white;
     padding-left:2em;
     padding-right: 200px;
-    padding-top: 250px;
+    /* padding-top: 250px; */
   }
 
 #changingword {
@@ -183,7 +186,7 @@ nav{
     align-items: center;
     height: 25vh !important;
     padding-bottom: 50vh;
-    background-color: burlywood !important;
+    /* background-color: burlywood !important; */
     grid-template-columns: 3fr minmax(2fr, 1fr) minmax(2fr, 1fr) 3fr;
     grid-template-rows: auto;
     grid-template-areas:
@@ -193,15 +196,16 @@ nav{
 }
 
 .contact-title {
-    font-size: 2em;
+    font-size: 28px;
     grid-area: title;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
+    font-family:'Playfair Display', serif;
 }
 
-.logo-svg {
+/* .logo-svg {
     width: 400px;
     grid-area: logo;
-}
+} */
 
 .contact-wrapper {
     grid-area: wrapper;
@@ -238,14 +242,14 @@ nav{
   }
   footer ul li a:hover {
     text-decoration:none;
-    color:white;
+    color:turquoise;
   }
   footer svg {
-    width:20%;
+    width:30%;
   }
-  footer p{
+  /* footer p{
     font-size: 1em;
-  }
+  } */
 
 
 
@@ -302,10 +306,10 @@ nav{
         ;
     } */
     .image-gallery {
-      height: 100%;
+      /* height: 100%; */
       display: grid;
       grid-template-rows: auto;
-      /* grid-gap: 10px; */
+      grid-gap: 80px;
       /* padding-top: 200px; */
       padding-bottom: 200px;
         padding-bottom: 200%;
@@ -323,7 +327,7 @@ nav{
     
     
     .contact {
-        padding-bottom: 200%;
+        /* padding-bottom: 200%; */
         grid-template-columns: 3fr minmax(2fr, 1fr) 3fr;
         grid-template-rows: auto;
         grid-template-areas:
@@ -333,7 +337,16 @@ nav{
         ;
     }
     
- 
+    
+    .btn{
+      border-radius: 8px;
+    padding:4px}
+    
+    .btn:hover{
+      box-shadow: 0 8px 16px 0 rgba(187, 50, 50, 0.2), 0 6px 20px 0 rgba(34, 187, 136, 0.19);
+    }
 
-
+/* .header-image {
+  background-image: url("images/Header_Image.svg");
+} */
 
