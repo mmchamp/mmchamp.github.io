@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    /* border: teal 3px solid; */
+    /* margin: 0; */
+    /* padding: 0; */
+    border: teal 3px solid;
 } 
 
 body{
@@ -100,6 +100,27 @@ nav{
     ". d e f ."
     ;
 } */
+
+.image-gallery {
+  background-image: url("images/Vine.svg");
+  background-repeat: no-repeat;
+  /* height: 100%; */
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 80px;
+  /* padding-top: 200px; */
+  padding-bottom: 200px;
+    padding-bottom: 200%;
+    grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
+    grid-template-areas:
+    ".a."
+    ".b."
+    ".c."
+    ".d."
+    ".e."
+    ".f."
+    ;
+}
 
 .box-styling {
     /* height: 300px; */
@@ -305,13 +326,15 @@ nav{
         ".f."
         ;
     } */
-    .image-gallery {
+    /* .image-gallery {
+      background-image: url("images/Vine.svg");
+      background-repeat: no-repeat; */
       /* height: 100%; */
-      display: grid;
+      /* display: grid;
       grid-template-rows: auto;
-      grid-gap: 80px;
+      grid-gap: 80px; */
       /* padding-top: 200px; */
-      padding-bottom: 200px;
+      /* padding-bottom: 200px;
         padding-bottom: 200%;
         grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
         grid-template-areas:
@@ -322,7 +345,7 @@ nav{
         ".e."
         ".f."
         ;
-    }
+    } */
     
     
     
@@ -345,8 +368,4 @@ nav{
     .btn:hover{
       box-shadow: 0 8px 16px 0 rgba(187, 50, 50, 0.2), 0 6px 20px 0 rgba(34, 187, 136, 0.19);
     }
-
-/* .header-image {
-  background-image: url("images/Header_Image.svg");
-} */
 
