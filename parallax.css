@@ -1,26 +1,26 @@
-.parallax-wrapper {
+/* .parallax-wrapper {
   width: 100vw;
-  height:100vh;
+  height:100vh; */
   /* padding-top:20vh; */
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
-.regular-wrapper {
-  z-index: 2;
+/* .regular-wrapper {
+  z-index: 2; */
   position: relative;
   /* height:100vh; */
   /* padding-top:20vh; */
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
 }
-.regular-wrapper2 {
+/* .regular-wrapper2 {
   z-index: 2;
   position: relative;
   padding-top:10vh;
   padding-bottom: 10vh;
   background-color: rgb(255, 255, 255);
-}
+} */
 
 
-.parallax-wrapper::before {
+/* .parallax-wrapper::before {
   content:"";
   width: 1000px;
   height: 800px;
@@ -30,10 +30,10 @@
   background-repeat: no-repeat;
   position: absolute;
   z-index: -1;
-}
+} */
 
 
-html {
+/* html {
   overflow: hidden;
 }
 body {
@@ -53,7 +53,7 @@ body {
 
 .parallax-wrapper::before {
   z-index: -1;
-}
+} */
 
 
 
